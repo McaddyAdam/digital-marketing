@@ -73,7 +73,7 @@
       image: {
         tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
         titleSrc: function (item) {
-          return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+          return item.el.attr('title') + '<small>by Adam Adebesin</small>';
         }
       }
     });
@@ -109,8 +109,7 @@
    google_map js
    ................................................. */
 
-// This example adds a marker to indicate the position of Bondi Beach in Sydney,
-// Australia.
+
 function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 12,
